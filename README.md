@@ -32,4 +32,3 @@ Run `ant -lib lib/ <target>` to explicitly use JUnit4, which is provided in the 
 If a Java JDK is not installed or properly configured on your system, you may encounter the following error:
 BUILD FAILED build.xml:17 Unable to find a javac compiler;
 Make sure that you have a JDK installed and that the JAVA_HOME environment variable is properly set.
-
