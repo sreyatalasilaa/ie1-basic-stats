@@ -13,7 +13,7 @@ Basic Statistics uses the Apache Ant build system. **Make sure that you have [An
 
 #### How to run Basic Statistics from the terminal:
 
-1. After building the project (i.e., running `ant compile`), run: `java -cp bin BasicStats`. The application's GUI will show up.
+1. After building the project (i.e., running `ant compile`), change into the `bin` directory and run: `java -cp . BasicStats`. The application's GUI will show up.
 
 #### Program features:
 * Displays a set of entered numbers.
@@ -32,3 +32,4 @@ Run `ant -lib lib/ <target>` to explicitly use JUnit4, which is provided in the 
 If a Java JDK is not installed or properly configured on your system, you may encounter the following error:
 BUILD FAILED build.xml:17 Unable to find a javac compiler;
 Make sure that you have a JDK installed and that the JAVA_HOME environment variable is properly set.
+
